@@ -5,5 +5,31 @@ body {
 }
 #wrapper {
   width: 960px;
-  margin: 20px auto;
+  margin: 20px aqua;
+}
+
+/*making h1 notes different colors*/
+h1, h3 {
+	color: navy; 
+	font-weight:600
+}
+h4{
+	color:#3F51B5;
+}
+
+#title{
+	font-style: italic;
+	color:gray;
+}
+h5{
+	color:navy;
+}
+#resume{
+	color:gray;
+	font-style: italic
+}
+
+img {
+	width:200px;
+	border: 5px solid #3F51B5;
 }
