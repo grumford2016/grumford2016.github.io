@@ -15,13 +15,12 @@ img {
 	text-align: center;
 }
 
-/*making h1 notes different colors*/
 h1, h3 {
-	color: white; 
-	font-weight:600
+	color: white;
 }
 h4{
 	color:#FFC107;
+	font-size: larger;
 }
 
 #title{
@@ -29,11 +28,15 @@ h4{
 	color:gray;
 }
 h5{
-	color:navy;
-	text-indent: 10px
+	color:#FF5722;
+	text-indent: 15px;
+	font-size: medium;
 }
-#resume{
+.resume{
 	color:white;
-	font-style: italic
+	text-indent: 30px
+	
 }
-
+#blurb{
+	color:white
+}
