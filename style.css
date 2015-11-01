@@ -1,20 +1,27 @@
 body {
-  font-family: 'helvetica neue', arial, sans-serif;
+  font-family: courier, serif;
   font-weight: 300;
-  background: url(linedpaper.png) repeat;
+  background: black;
 }
+
 #wrapper {
   width: 960px;
   margin: 20px aqua;
 }
 
+img {
+	width:200px;
+	border: 5px solid white;
+	text-align: center;
+}
+
 /*making h1 notes different colors*/
 h1, h3 {
-	color: navy; 
+	color: white; 
 	font-weight:600
 }
 h4{
-	color:#3F51B5;
+	color:#FFC107;
 }
 
 #title{
@@ -26,11 +33,7 @@ h5{
 	text-indent: 10px
 }
 #resume{
-	color:gray;
+	color:white;
 	font-style: italic
 }
 
-img {
-	width:200px;
-	border: 5px solid #3F51B5;
-}
