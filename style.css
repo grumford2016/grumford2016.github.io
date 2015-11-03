@@ -29,13 +29,12 @@ h4{
 }
 h5{
 	color:#FF5722;
-	text-indent: 15px;
 	font-size: medium;
 }
 .resume{
 	color:white;
-	text-indent: 30px
-	
+	margin-left: 20px;
+	text-indent: 10px
 }
 #blurb{
 	color:white
