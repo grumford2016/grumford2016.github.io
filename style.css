@@ -1,7 +1,19 @@
+
+.navbar-inverse .navbar-brand .navbar-fixed-top{
+  font-family: 'EB Garamond', serif;
+  font-size: 36px;
+  color: gray;
+  padding-top: 70px;
+}
 body {
   font-family: 'EB Garamond', serif;
   font-weight: 300;
   background: black;
+  padding-top: 70px;
+}
+
+h1{
+  padding: 10 30px 30px 10;
 }
 
 #wrapper {
