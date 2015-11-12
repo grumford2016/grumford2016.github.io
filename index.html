@@ -1,33 +1,20 @@
 <!DOCTYPE html>
-<!--HW Requirements Continue working on your username.github.io project. Create a new index.html page and add visual styles that apply good design principles and that are responsive across a variety of devices and platforms. (You should rename your original index.html, if you want to keep it.)
-
-You should:
-
-Link to the Bootstrap CSS framework in your HEAD tag
-Utilize the Bootstrap grid system to create a logical separation in your design elements (e.g. header, content, sidebar, footer) on medium-sized (992px wide and up) devices and up
-Ensure that on small sized devices (768px and up), you can still see content and a sidebar, and that content is not simply stacked
-Use at least one of Bootstrap's built-in CSS classes to style HTML elements. Examples:
-Make a link look like a button
-Style a table
-Make an image square, rounded, or circle
-Use at least one other Bootstrap design component
-Nav
-Navbar
-Label
-Alert
-Etc.
-Commit and sync your changes to your Github account no later than 11:59pm on Thursday.-->
-
 <html>
+
 <head>
   <title>Vinegar Analytics</title>
   <meta charset="UTF-8">
-  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  
+ 
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-  <link href='https://fonts.googleapis.com/css?family=EB+Garamond' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Raleway:500' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="style.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+ 
 </head>
+
 <body>
 <nav class="navbar navbar-inverse">
   <div class="container">
@@ -64,34 +51,35 @@ Commit and sync your changes to your Github account no later than 11:59pm on Thu
   </div>
 </nav>
 </body>
- <div class="jumbotron">
+ <div id="title" class="jumbotron">
       <h1>Mapping Customers to Food </h1>
       <h2>We help food and dining companies find customers</h2>
  </div>
  <div class = "container">
- <div class="row">
- <h1>Why it Matters</h1>
- <div class="row">
-  <div class="col-md-3"><i class="fa fa-question-circle"></i></div>
-  <div class="col-md-3"><i class="fa fa-heart"></i></div>
-  <div class="col-md-3"><i class="fa fa-bullhorn"></i></div>
-  <div class="col-md-3"><i class="fa fa-money"></i></div>
-  </div>
-  <Div Class="row">
-  <div class="col-md-3">Who's your customer?</div>
-  <div class="col-md-3">Find your future fans</div>
-  <div class="col-md-3">Accelerate word of mouth</div>
-  <div class="col-md-3">Show me the dough!</div>
-  </Div>
-  <div class="row">
-  <div class="col-md-3">Know the key characteriscits</div>
-  <div class="col-md-3">Focus your efforts</div>
-  <div class="col-md-3">Build a strong customer referral</div>
-  <div class="col-md-3">Get a better bang for your marketing buck </div>
-  </div>
-</div>
-</div>
-      </div>
+ 	<div class="row">
+ 		<h1>Why it Matters</h1>
+ 			<div class="row">
+  				<div class="col-xs-3 col-md-3" ><center><i class="fa fa-question-circle fa-5x"></i></center></div>
+  				<div class="col-xs-3 col-md-3"><center><i class="fa fa-heart fa-5x"></i></center></div>
+ 				<div class="col-xs-3 col-md-3"><center><i class="fa fa-bullhorn fa-5x"></i></center></div>
+  				<div class="col-xs-3 col-md-3"><center><i class="fa fa-money fa-5x"></i><center></i></div>
+ 			</div>
+  	<Div Class="row" id="questions">
+  				<div class="col-xs-3 col-md-3"><center>Who's your customer?</center></div>
+  				<div class="col-xs-3 col-md-3"><center>Find your future fans</center></div>
+  				<div class="col-xs-3 col-md-3"><center>Amplify word of mouth</center></div>
+  				<div class="col-xs-3 col-md-3"><center>Show me the dough!</center></div>
+  	</Div>
+  	<div class="row">
+  				<div class="col-xs-3 col-md-3"><center>Know the key characteristics</center></div>
+  				<div class="col-xs-3 col-md-3"><center>Focus your efforts</center></div>
+				<div class="col-xs-3 col-md-3"><center>Build a strong customer referral</center></div>
+				<div class="col-xs-3 col-md-3"><center>Better analysis=Better returns</center></div>
+  	</div>
+  	<div class="row">
+  				<div class="col-xs-3 col-md-3"><center><button type="button" class="btn btn-default"><a href="#">Learn More</button></center></div>
+  				<div class="col-xs-3 col-md-3"><center><button type="button" class="btn btn-default"><a href="#">Learn More</button></center></div>
+				<div class="col-xs-3 col-md-3"><center><button type="button" class="btn btn-default"><a href="#">Learn More</button></center></div>
+				<div class="col-xs-3 col-md-3"><Center><button type="button" class="btn btn-default"><a href="#">Learn More</button></Center></div>
     </div>
-  </div>
 </html>
