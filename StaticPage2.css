@@ -1,0 +1,17 @@
+.navbar-inverse {
+  font-family: 'Raleway', sans-serif;
+}
+
+body h1{
+  font-family: 'Raleway', serif;
+}
+
+#title{
+	font-family: 'Raleway', serif;
+	font-size: medium;
+	color:white;
+}
+
+.thumbnail > img { 
+  height: 100px;
+}
