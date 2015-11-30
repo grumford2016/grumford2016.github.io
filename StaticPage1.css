@@ -19,3 +19,8 @@ body h1{
 body h3{
 	 text-shadow: 2px 2px black;
 }
+
+body{
+	background-color:#4276CA;
+	color: white;
+}
