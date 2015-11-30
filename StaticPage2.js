@@ -1,10 +1,9 @@
-// This code runs when the page loads
 $(function() {
 
-  $(".thumbnail").on("click", function(event) {
+  $(".thumbnail").on("click")function(event) {
     event.preventDefault();
     var elementThatWasClicked = $(this);
-    elementThatWasClicked.remove();
+    console.remove(elementThatWasClicked);
   })
 
-}
+})
