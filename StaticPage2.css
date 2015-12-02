@@ -1,17 +1,26 @@
+body {
+    background-image: url("veggies.jpg");
+}
+
 .navbar-inverse {
   font-family: 'Raleway', sans-serif;
 }
 
 body h1{
-  font-family: 'Raleway', serif;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  text-shadow: 2px 2px black;
+}
+
+body h2{
+	font-family: 'Raleway', sans-serif;
+	font-size: x-large;
+	color: white;
+	text-shadow: 2px 2px black;
 }
 
 #title{
 	font-family: 'Raleway', serif;
 	font-size: medium;
 	color:white;
-}
-
-.thumbnail > img { 
-  height: 100px;
 }

@@ -1,9 +1,9 @@
 $(function() {
-
-  $(".thumbnail").on("click")function(event) {
+ 
+  $(".thumbnail").on("click", function(event) {
     event.preventDefault();
     var elementThatWasClicked = $(this);
-    console.remove(elementThatWasClicked);
+    elementThatWasClicked.parent().remove();
   })
-
+ 
 })
