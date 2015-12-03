@@ -9,14 +9,14 @@ body {
 body h1{
   font-family: 'Raleway', sans-serif;
   color: #4276CA;
-  text-shadow: 3px 3px black;
+  text-shadow: 2px 2px black;
 }
 
 body h2{
 	font-family: 'Raleway', sans-serif;
 	font-size: x-large;
 	color: #4276CA;
-	text-shadow: 3px 3px black;
+	text-shadow: 2px 2px black;
 }
 
 #title{
